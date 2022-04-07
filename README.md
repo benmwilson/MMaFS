@@ -21,6 +21,7 @@ This project has two parts, one on memory management and one on file systems. Th
 ## Table of Contents
 
 - [Project Outline](#project-outline)
+- [Design Choices](#design-choices)
 - [Contributors](#contributors)
 
 ### Project Outline
@@ -40,6 +41,15 @@ The goal of this component is to write a simple UNIX-like file system. The file 
  - The file system supports a maximum of 16 files.
  - The maximum size of a file is 8 blocks; each block is 1KB in size.
  - Each file has a unique name, the file name can be no longer than 8 characters.
+
+### Design Choices
+
+Part I: Memory management & Paging 
+  - Create a text file that contains the number of paging and offset bits and test input virtual addresses
+  - main function reads in the text file, parsing line by line 
+  - function that converts virtual address to physical address has both a page mask and offset mask that keep track of the upper and lower bound of a 16 bit number respectively in order to get the correct "offest" for both the correct binary number for page and offset
+  - calculate the page by binary AND operator on the virtual address with the page mask then shifting the bits to the right  
+  - calculate the offset by binary AND operator on the virtual address with the offset mask
 
 ### Contributors
  - [Ben Wilson](https://github.com/benmwilson)
