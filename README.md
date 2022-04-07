@@ -22,6 +22,7 @@ This project has two parts, one on memory management and one on file systems. Th
 
 - [Project Outline](#project-outline)
 - [Design Choices](#design-choices)
+- [How To Run](#how-to-run)
 - [Contributors](#contributors)
 
 ### Project Outline
@@ -50,6 +51,15 @@ Part I: Memory management & Paging
   - function that converts virtual address to physical address has both a page mask and offset mask that keep track of the upper and lower bound of a 16 bit number respectively in order to get the correct "offest" for both the correct binary number for page and offset
   - calculate the page by binary AND operator on the virtual address with the page mask then shifting the bits to the right  
   - calculate the offset by binary AND operator on the virtual address with the offset mask
+
+### How To Run
+ Navigate to the part1 folder on the branch part1, then:
+
+    - compile c file
+        - $ gcc paging.c -o p 
+    - run program
+        - $ ./p
+ 
 
 ### Contributors
  - [Ben Wilson](https://github.com/benmwilson)
