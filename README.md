@@ -24,6 +24,7 @@ This project has two parts, one on memory management and one on file systems. Th
 - [Design Choices](#design-choices)
 - [How To Run](#how-to-run)
 - [Contributors](#contributors)
+- [Resources](#resources)
 
 ### Project Outline
 
@@ -65,4 +66,9 @@ Part I: Memory management & Paging
  - [Ben Wilson](https://github.com/benmwilson)
  - [Eric Shanks](https://github.com/EricShanks68) 
  - [Richardo Brown](https://github.com/Buttertoastt)
+
+### Resources
+  - https://www.cprogramming.com/tutorial/bitwise_operators.html
+  - https://www.learn-c.org/en/Bitmasks
+  - https://solarianprogrammer.com/2019/04/03/c-programming-read-file-lines-fgets-getline-implement-portable-getline/
 
