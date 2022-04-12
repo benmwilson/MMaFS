@@ -1,0 +1,22 @@
+>filesystem.exe sampleinput
+disk0
+
+[CREATE] Creating filename 'file1'
+[READ] Reading filename 'file1', blockNum: 0
+[WRITE] Write pointer: 1, offset: 1024
+[READ] Reading filename 'file1', blockNum: 1
+[WRITE] Write pointer: 2, offset: 2048
+
+
+[LIST] Listing Files...
+file1, size: 3
+[CREATE] Creating filename 'file2'
+[READ] Reading filename 'file1', blockNum: 1
+[READ] Read pointer: 2, offset: 2048
+[DELETE] Deleting filename 'mini-project.java'
+[Error] No matching inode to delete!
+
+
+[LIST] Listing Files...
+file1, size: 3
+file2, size: 4
