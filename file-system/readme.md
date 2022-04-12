@@ -13,7 +13,7 @@ Some tools are required to compile and executre this file system. Please refer t
 ### Makefile
 You must use the provided Makefile to compile the source code. Navigate to the root directory and open a terminal, type `make.exe` to compile the source code.
 
-You will now have create_fs.exe and fs.exe which you can use to run the implementation.
+You will now have `create_fs.exe` and `filesystem.exe` which you can use to run the implementation.
 
 More information on Makefiles can be viewed [here](https://makefiletutorial.com/).
 
@@ -31,10 +31,9 @@ I decided to implement this problem using C++ over C.
 
 ## Sample Outputs
 
-View a few different sample outputs [here](sampleoutputs.txt) 
+View a sample output [here](sampleoutput) 
 
 ### References
 
 - https://makefiletutorial.com/
-- https://www.java67.com/2021/07/how-to-implement-thread-safe-bounded-buffer-in-java.html
 
