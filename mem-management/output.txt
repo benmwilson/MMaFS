@@ -1,0 +1,8 @@
+Example output for the input file is:
+
+virtual address 1 is in page: 1 and offset: 212 
+virtual address 2 is in page: 9 and offset: 52 
+virtual address 3 is in page: 135 and offset: 6
+virtual address 4 is in page: 21 and offset: 179
+virtual address 5 is in page: 37 and offset: 215
+virtual address 6 is in page: 100 and offset: 66

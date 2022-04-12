@@ -19,9 +19,9 @@ This project has two parts, one on memory management and one on file systems. Th
 <br><br>
 
 ## Table of Contents
-
-- [Project Outline](#project-outline)
-- [Contributors](#contributors)
+ - [Project Outline](#project-outline)
+ - [Contributors](#contributors)
+ - [Resources](#resources)
 
 ### Project Outline
 
@@ -45,4 +45,10 @@ The goal of this component is to write a simple UNIX-like file system. The file 
  - [Ben Wilson](https://github.com/benmwilson)
  - [Eric Shanks](https://github.com/EricShanks68) 
  - [Richardo Brown](https://github.com/Buttertoastt)
+
+### Resources
+ - https://www.cprogramming.com/tutorial/bitwise_operators.html
+ - https://www.learn-c.org/en/Bitmasks
+ - https://solarianprogrammer.com/2019/04/03/c-programming-read-file-lines-fgets-getline-implement-portable-getline/
+
 
