@@ -1,4 +1,4 @@
-C:\Users\benwi\Desktop\file-system>filesystem.exe sampleinput2 
+>filesystem.exe sampleinput
 disk0
 
 [CREATE] Creating filename 'file1'
