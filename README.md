@@ -19,12 +19,9 @@ This project has two parts, one on memory management and one on file systems. Th
 <br><br>
 
 ## Table of Contents
-
-- [Project Outline](#project-outline)
-- [Design Choices](#design-choices)
-- [How To Run](#how-to-run)
-- [Contributors](#contributors)
-- [Resources](#resources)
+ - [Project Outline](#project-outline)
+ - [Contributors](#contributors)
+ - [Resources](#resources)
 
 ### Project Outline
 
@@ -44,31 +41,14 @@ The goal of this component is to write a simple UNIX-like file system. The file 
  - The maximum size of a file is 8 blocks; each block is 1KB in size.
  - Each file has a unique name, the file name can be no longer than 8 characters.
 
-### Design Choices
-
-Part I: Memory management & Paging 
-  - Create a text file that contains the number of paging and offset bits and test input virtual addresses
-  - main function reads in the text file, parsing line by line 
-  - function that converts virtual address to physical address has both a page mask and offset mask that keep track of the upper and lower bound of a 16 bit number respectively in order to get the correct "offest" for both the correct binary number for page and offset
-  - calculate the page by binary AND operator on the virtual address with the page mask then shifting the bits to the right  
-  - calculate the offset by binary AND operator on the virtual address with the offset mask
-
-### How To Run
- Navigate to the part1 folder on the branch part1, then:
-
-    - compile c file
-        - $ gcc paging.c -o p 
-    - run program
-        - $ ./p
- 
-
 ### Contributors
  - [Ben Wilson](https://github.com/benmwilson)
  - [Eric Shanks](https://github.com/EricShanks68) 
  - [Richardo Brown](https://github.com/Buttertoastt)
 
 ### Resources
-  - https://www.cprogramming.com/tutorial/bitwise_operators.html
-  - https://www.learn-c.org/en/Bitmasks
-  - https://solarianprogrammer.com/2019/04/03/c-programming-read-file-lines-fgets-getline-implement-portable-getline/
+ - https://www.cprogramming.com/tutorial/bitwise_operators.html
+ - https://www.learn-c.org/en/Bitmasks
+ - https://solarianprogrammer.com/2019/04/03/c-programming-read-file-lines-fgets-getline-implement-portable-getline/
+
 
