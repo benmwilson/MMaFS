@@ -27,7 +27,7 @@ Example: `filesystem.exe sampleinput`
 
 ## Implementation
 
-I decided to implement this problem using C++ over C for various reasons, mainly ease and memory management. The files created in the file system are maintained on a digital "disk" file that is 128KB in size. This file system has no subdirectories, just a root directory and supports a maximum of 16 files with the size of a file being 8 blocks; each block being 1KB in size. File names created can be no longer than 8 characters in length.
+I decided to implement this problem using C++ over C for various reasons, mainly ease and memory management. A Makefile is utilized to make compilation easy and streamlined across various devices. The files created in the file system are maintained on a digital "disk" file that is 128KB in size. This file system has no subdirectories, just a root directory and supports a maximum of 16 files with the size of a file being 8 blocks; each block being 1KB in size. File names created can be no longer than 8 characters in length.
 
 The first 1KB block is known as the super block, it stores the free block list and index nodes (inode) for each file. The remaining 127 1KB blocks store data blocks of the files on your file system.
 
